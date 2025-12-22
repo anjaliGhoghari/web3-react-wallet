@@ -12,12 +12,12 @@ export default function WalletCard() {
       {!isConnected ? (
         <button
           onClick={connectWallet}
-          className="w-full rounded-lg bg-indigo-600 py-2 font-medium text-white hover:bg-indigo-700 transition"
+          className="w-full rounded-lg bg-indigo-600 py-2 px-3 font-medium text-white hover:bg-indigo-700 transition"
         >
           Connect Wallet
         </button>
       ) : (
-        <div className="space-y-2 text-sm text-slate-300">
+        <div className="space-y-3 text-sm text-slate-300">
           <p>
             <span className="text-slate-400">Account:</span><br />
             <span className="break-all">{account}</span>
