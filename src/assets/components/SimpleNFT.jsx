@@ -2,8 +2,8 @@ import { useState } from "react";
 import { ethers } from "ethers";
 import nftABI from "../ABI/SimpleNFT.json"
 function SimpleNFT() {
-    const [account, setAccount] = useState("");
-  const [totalNFTs, setTotalNFTs] = useState(0);
+    const [account, setAccount] = useState(""); 
+  const [totalNFTs, setTotalNFTs] = useState(0);  
   const [name , setName] = useState("");
   const [symbol , setSymbol] = useState("");
   const [balance , setBalance] = useState(0);

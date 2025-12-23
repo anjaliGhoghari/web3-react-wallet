@@ -1,39 +1,35 @@
-# React + Vite
+# Web3 Dashboard 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Web3 dashboard built using **React + Ethers.js**.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Connect MetaMask wallet
+- Read ERC20 token data (name, symbol, supply)
+- Transfer ERC20 tokens
+- Mint NFTs
+- View NFT balance
+- Network auto-switch to Sepolia
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Web3 Dashboard (React + Ethers.js)
-
-A clean Web3 dashboard built with:
+## 🧠 Tech Stack
 - React
+- Tailwind CSS
 - Ethers.js
-- Tailwind CSS
-
-## Features
-- Wallet connect (MetaMask)
-- Network detection
-- Modular Web3 architecture
-- Clean UI (Dark Mode)
-
-## Tech Stack
-- React
-- Ethers v6
-- Tailwind CSS
+- Solidity (ERC20 + ERC721)
 - MetaMask
 
-## Coming Next
-- ERC20 token interaction
-- NFT dashboard
-- Mint & Transfer flows
+## 🧪 Network
+- Sepolia Testnet
+
+## 💡 What I Learned
+- Difference between provider and signer
+- Reading vs writing blockchain data
+- Handling decimals in ERC20
+- Extracting events from transactions
+- Connecting smart contracts to frontend
+
+## 🔗 Live Demo
+👉 (add Vercel link here)
+
+---
+
+Built with ❤️ by Anjali
