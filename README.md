@@ -28,7 +28,7 @@ A modern Web3 dashboard built using **React + Ethers.js**.
 - Connecting smart contracts to frontend
 
 ## 🔗 Live Demo
-👉 (add Vercel link here)
+👉 https://web3-react-wallet-ten.vercel.app/
 
 ---
 
